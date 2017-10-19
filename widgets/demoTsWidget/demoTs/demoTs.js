@@ -4,7 +4,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-define(["require", "exports", "dojo/text!./templates/demoTs.html", "dojo/i18n!widgets/demoTsWidget/demoTs/nls/strings", "xstyle/css!./resources/demoTs.css", "dojo/_base/lang", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "dijit/_WidgetsInTemplateMixin", "widgets/demoTsWidget/declareDecorator"], function (require, exports, template, nls, style, lang, WidgetBase, TemplatedMixin, WidgetsInTemplateMixin, declare) {
+define(["require", "exports", "dojo/text!./templates/demoTs.html", "dojo/i18n!widgets/demoTsWidget/demoTs/nls/strings", "xstyle/css!./resources/demoTs.css", "dojo/_base/lang", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "dijit/_WidgetsInTemplateMixin", "./declareDecorator"], function (require, exports, template, nls, style, lang, WidgetBase, TemplatedMixin, WidgetsInTemplateMixin, declare) {
     /// <amd-dependency path="dojo/text!./templates/demoTs.html" name="template" />
     /// <amd-dependency path="dojo/i18n!widgets/demoTsWidget/demoTs/nls/strings" name="nls" />
     /// <amd-dependency path="xstyle/css!./resources/demoTs.css" name="style" />

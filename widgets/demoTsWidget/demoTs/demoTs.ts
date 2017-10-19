@@ -19,7 +19,7 @@ import Map = require("esri/map");
 
 // local
 import IConfig = require("./IConfigdemoTs");
-import declare = require("widgets/demoTsWidget/declareDecorator");
+import declare = require("./declareDecorator");
 
 @declare(WidgetBase, TemplatedMixin, WidgetsInTemplateMixin)
 class MyWidget {

@@ -4,10 +4,11 @@ declare var BaseWidget: any; // there is no ts definition of BaseWidget yet
 // dojo
 import dojoDeclare = require("dojo/_base/declare");
 import domConstruct = require("dojo/dom-construct");
-import declare  = require("./declareDecorator");
+
 
 // local
 import Widget = require("./demoTs/demoTs");
+import declare  = require("./demoTs/declareDecorator");
 
 // esri
 import Map = require("esri/map");

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "watch": false,
+        "target": "es5",
+        "module": "amd",
+        "experimentalDecorators": true,
+        "moduleResolution": "classic",
+        "noImplicitUseStrict": true
+    },
+    "include": [
+        "./widgets/**/*.ts",
+        "./libs/Kadme/**/*.ts",
+        "./node_modules/dojo-typings/dojo/1.11/modules.d.ts",
+        "./node_modules/dojo-typings/dijit/1.11/modules.d.ts",
+        "./node_modules/dojo-typings/dojox/1.11/modules.d.ts"
+    ]
+
+}
